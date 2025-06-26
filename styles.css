@@ -25,10 +25,6 @@ body {
   padding: 2rem;
 }
 
-p{
-  color:var(--card-bg) ;
-}
-
 header {
   text-align: center;
   padding: 4rem 2rem 2rem;
@@ -46,7 +42,7 @@ header {
   border-radius: 10px;
   padding: 1.5rem;
   transition: transform 0.3s ease;
-  border: 1px solid #333;
+  border: 1px solid #333; 
 }
 
 .card:hover {
@@ -76,6 +72,24 @@ footer {
   text-align: center;
   margin-top: 3rem;
   padding: 2rem 0;
-  font-size: 0.9rem; 
+  font-size: 0.9rem;
   color: var(--card-bg);
+}
+
+.gif-container {
+  margin-top: 1rem;
+}
+
+.gif-container h3 {
+  font-size: 1rem;
+  color: var(--fg);
+  margin-bottom: 0.5rem;
+}
+
+.gif-container img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
 }
