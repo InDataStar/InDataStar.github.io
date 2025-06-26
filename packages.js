@@ -1,18 +1,15 @@
 const packages = [
   {
-    name: "cool-lib",
-    description: "A cool utility library for doing cool things.",
-    link: "https://www.npmjs.com/package/cool-lib"
+    name: "Styled Flatlists",
+    description: "React Native flatlists with style",
+    version: "0.1.2",
+    link: "https://www.npmjs.com/package/react-native-styled-flatlists"
   },
   {
-    name: "form-handler",
-    description: "A simple form handler for modern web apps.",
-    link: "https://www.npmjs.com/package/form-handler"
-  },
-  {
-    name: "color-scheme-switcher",
-    description: "Easily switch between light and dark themes.",
-    link: "https://www.npmjs.com/package/color-scheme-switcher"
+    name: "Styled Toggle Switches",
+    description: "React Native toggle switches with style",
+    version: "0.1.1",
+    link: "https://www.npmjs.com/package/react-native-styled-toggle-switches"
   }
 ];
 
@@ -24,6 +21,7 @@ packages.forEach(pkg => {
   card.innerHTML = `
     <h2>${pkg.name}</h2>
     <p>${pkg.description}</p>
+    <p>${pkg.version}</p>
     <a href="${pkg.link}" target="_blank">View on npm →</a>
   `;
   container.appendChild(card);

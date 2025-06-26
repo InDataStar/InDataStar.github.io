@@ -1,6 +1,6 @@
 :root {
-  --bg: #1e1e2f;
-  --fg: #f4f4f5;
+  --bg: #2193b0;
+  --fg: #6dd5ed;
   --primary: #61dafb;
   --secondary: #999;
   --card-bg: #2a2a40;
@@ -14,7 +14,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: var(--bg);
+  background: linear-gradient(135deg,var(--bg),var(--fg));
   color: var(--fg);
   line-height: 1.6;
 }
