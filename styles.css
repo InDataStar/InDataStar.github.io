@@ -32,7 +32,7 @@ p{
 header {
   text-align: center;
   padding: 4rem 2rem 2rem;
-  color:var(--card-bg) ;
+  color: var(--card-bg);
 }
 
 .grid {
@@ -77,5 +77,5 @@ footer {
   margin-top: 3rem;
   padding: 2rem 0;
   font-size: 0.9rem; 
-  color:var(--card-bg) ;
+  color: var(--card-bg);
 }
