@@ -25,9 +25,14 @@ body {
   padding: 2rem;
 }
 
+p{
+  color:var(--card-bg) ;
+}
+
 header {
   text-align: center;
   padding: 4rem 2rem 2rem;
+  color:var(--card-bg) ;
 }
 
 .grid {
@@ -71,6 +76,6 @@ footer {
   text-align: center;
   margin-top: 3rem;
   padding: 2rem 0;
-  font-size: 0.9rem;
-  color: #aaa;
+  font-size: 0.9rem; 
+  color:var(--card-bg) ;
 }
