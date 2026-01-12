@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Styled Flatlists",
+    "description": "React Native flatlists with style",
+    "version": "0.1.2",
+    "link": "https://www.npmjs.com/package/react-native-styled-flatlists",
+    "img": [
+      { "title": "Pulse Enter List", "src": "gifs/PulseInTiming.gif" },
+      { "title": "Slide In List", "src": "gifs/horizontalslideinlist.gif" },
+      { "title": "Slide In List", "src": "gifs/verticalslideinlist .gif" }
+    ]
+  },
+  {
+    "name": "Styled Toggle Switches",
+    "description": "React Native toggle switches with style",
+    "version": "0.1.2",
+    "link": "https://www.npmjs.com/package/react-native-styled-toggle-switches",
+    "img": [
+      { "title": "Basic Slide Switch", "src": "gifs/slideswitch1.gif" },
+      { "title": "Slide Switch with Text", "src": "gifs/slideswitchwithtext.gif" }
+    ]
+  },
+  {
+    "name": "React Native Styled Badges",
+    "description": "React Native badges with style",
+    "version": "0.1.0",
+    "link": "https://www.npmjs.com/package/react-native-styled-badges",
+    "img": [
+      { "title": "Basic Badge", "src": "img/badgeStack.png" }
+    ]
+  },
+  {
+    "name": "Indatastar Styled Progress bars",
+    "description": "A React Native library providing beautiful animated progress bars, including:",
+    "version": "0.2.0",
+    "link": "https://www.npmjs.com/package/indatastar-styled-progress-bars",
+    "img": [
+      { "title": "Circular Progress Bar Sheet", "src": "gifs/indatastar-styled-progress-bar-circularprogressbar.gif" },
+      { "title": "Wave Progress Bar", "src": "gifs/indatastar-styled-progress-bar-waveprogressbar.gif" },
+      { "title": "SemiCircular Progress Bar Sheet", "src": "gifs/indatastar-styled-confirm-sheet.gif" }
+    ]
+  },
+  {
+    "name": "Indatastar Styled Confirm sheet",
+    "description": "A simple, promise-based confirmation sheet / dialog for React Native.",
+    "version": "0.1.0",
+    "link": "https://www.npmjs.com/package/indatastar-styled-confirm-sheet",
+    "img": [
+      { "title": "Confirm Sheet", "src": "gifs/indatastar-styled-confirm-sheet.gif" }
+    ] 
+  }
+]
