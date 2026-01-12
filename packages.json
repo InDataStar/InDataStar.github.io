@@ -37,7 +37,7 @@
     "img": [
       { "title": "Circular Progress Bar Sheet", "src": "gifs/indatastar-styled-progress-bar-circularprogressbar.gif" },
       { "title": "Wave Progress Bar", "src": "gifs/indatastar-styled-progress-bar-waveprogressbar.gif" },
-      { "title": "SemiCircular Progress Bar Sheet", "src": "gifs/indatastar-styled-confirm-sheet.gif" }
+      { "title": "SemiCircular Progress Bar Sheet", "src": "gifs/indatastar-styled-progress-bar-semicircularprogressbar.gif" }
     ]
   },
   {
