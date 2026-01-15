@@ -48,5 +48,14 @@
     "img": [
       { "title": "Confirm Sheet", "src": "gifs/indatastar-styled-confirm-sheet.gif" }
     ] 
+  },
+  {
+    "name": "Indatastar Styled Collapsible View",
+    "description": "A simple, lightweight collapsible panel component for React Native.",
+    "version": "0.1.0",
+    "link": "https://www.npmjs.com/package/indatastar-styled-collapsible-view",
+    "img": [
+      { "title": "Collapsible View", "src": "gifs/indatastar-styled-collapsible-view.gif" }
+    ] 
   }
 ]
