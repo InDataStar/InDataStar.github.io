@@ -44,15 +44,29 @@ header p {
   margin-top: 0.5rem;
 }
 
-/* Tumblr-like feed grid */
+/* Tumblr-like masonry feed using columns */
 .grid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  column-count: 2; /* default 2 columns */
+  column-gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    column-count: 3; /* tablet and up */
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid {
+    column-count: 4; /* desktop */
+  }
 }
 
 /* Post card */
 .card {
+  display: inline-block; /* required for column layout */
+  width: 100%;           /* fill column width */
+  margin-bottom: 1.5rem; /* space between cards */
   background: var(--card-bg);
   border-radius: 6px;
   padding: 1.25rem;
