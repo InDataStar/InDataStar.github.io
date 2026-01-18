@@ -1,18 +1,20 @@
 :root {
-  --bg: #f4f4f5;
+  --bg: #e9ebee;                /* Tumblr-like background */
   --fg: #1f2937;
-  --primary: #36465d; /* Tumblr blue-gray */
+  --primary: #36465d;           /* Tumblr blue-gray */
   --secondary: #6b7280;
   --card-bg: #ffffff;
   --border: #e5e7eb;
 }
 
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Base */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
     Helvetica, Arial, sans-serif;
@@ -23,11 +25,12 @@ body {
 
 /* Narrow Tumblr-style feed container */
 .container {
-  max-width: 820px;
+  max-width: 640px;
   margin: auto;
   padding: 2rem 1rem;
 }
 
+/* Header */
 header {
   text-align: center;
   padding: 3rem 1rem 2rem;
@@ -44,34 +47,46 @@ header p {
   margin-top: 0.5rem;
 }
 
-/* Grid layout for posts */
+/* ===== Tumblr-style Masonry Feed ===== */
 .grid {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-auto-rows: auto; /* rows adjust height to content */
+  column-count: 3;
+  column-gap: 1.5rem;
+}
+
+/* Responsive columns */
+@media (max-width: 1024px) {
+  .grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid {
+    column-count: 1;
+  }
 }
 
 /* Post card */
 .card {
-  width: 100%; /* fills the grid cell */
+  display: inline-block;     /* REQUIRED for masonry */
+  width: 100%;
+  margin-bottom: 1.5rem;
   background: var(--card-bg);
-  border-radius: 6px;
-  padding: 1.25rem;
+  border-radius: 4px;
+  padding: 1rem;
   border: 1px solid var(--border);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  break-inside: avoid;
+  transition: box-shadow 0.2s ease;
 }
 
 .card:hover {
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
-  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* Card title */
 .card h2 {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   margin-bottom: 0.5rem;
   color: var(--primary);
 }
@@ -79,31 +94,33 @@ header p {
 /* Card description */
 .card p {
   color: var(--secondary);
-  font-size: 0.95rem;
-  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
-/* Images inside cards */
+/* Image / GIF container */
 .gif-container {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
 }
 
 .gif-container h3 {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--secondary);
   margin-bottom: 0.25rem;
 }
 
+/* Images dominate the card like Tumblr */
 .gif-container img {
   width: 100%;
   border-radius: 4px;
   display: block;
+  margin-bottom: 0.5rem;
 }
 
-/* Links in card */
+/* Links */
 .card a {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 0.75rem;
   color: var(--primary);
   font-weight: 500;
   text-decoration: none;
