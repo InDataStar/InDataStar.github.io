@@ -57,5 +57,13 @@
     "img": [
       { "title": "Collapsible View", "src": "gifs/indatastar-styled-collapsible-view.gif" }
     ] 
+  },
+  {
+    "name": "Indatastar Styled Password Strength Meter",
+    "description": "A lightweight, customizable password strength meter for React Native apps.",
+    "version": "0.1.0",
+    "link": "https://www.npmjs.com/package/indatastar-styled-password-strength-meter",
+    "img": [ 
+    ] 
   }
 ]
