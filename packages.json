@@ -65,5 +65,13 @@
     "link": "https://www.npmjs.com/package/indatastar-styled-password-strength-meter",
     "img": [ 
     ] 
+  },
+  {
+    "name": "Indatastar Styled Animated Image Background",
+    "description": "A lightweight, customizable animated image background for React Native apps.",
+    "version": "0.1.0",
+    "link": "https://www.npmjs.com/package/indatastar-styled-animatedimagebackground",
+    "img": [ 
+    ] "title":"Animated Image Background","src","https://i.imgur.com/kfXtjea.gif"
   }
 ]
