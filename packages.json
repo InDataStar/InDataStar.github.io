@@ -64,6 +64,7 @@
     "version": "0.1.0",
     "link": "https://www.npmjs.com/package/indatastar-styled-password-strength-meter",
     "img": [ 
+      {"title":"Animated Image Background","src":"gifs/animatedBackground.gif"}
     ] 
   }
 ]
